@@ -1,0 +1,65 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	height: 690px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+main, .maincontainer {
+	height: 100%;
+}
+
+form {
+	height: 20%;
+}
+
+.label2 {
+	display: none;
+}
+
+#number {
+	width: 10%;
+	height: 50%;
+}
+
+.div1 {
+	height: 100%;
+}
+
+button {
+	height: 60%;
+}
+
+@media screen and (max-width: 576px) {
+	button {
+		height: 30px;
+		width: 70px;
+	}
+
+	#number {
+		width: 70px;
+		height: 25px;
+	}	
+
+	.label2 {
+		display: flex;
+	}
+
+	.label1 {
+		display: none;
+	}
+
+	form {
+		height: 200px;
+	}
+}
